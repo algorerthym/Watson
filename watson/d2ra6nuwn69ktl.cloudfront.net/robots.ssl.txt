@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /api/
+
+Disallow: /pivot/availability
+Disallow: /pf/*/set_meeting/services
+Disallow: /v/
+Disallow: /m/
+Disallow: /widgets/
+Disallow: /time_zone
+Disallow: /*?form_focus
+Disallow: /*?euid
+Disallow: /integrations/*
+Disallow: /payments/*
+Disallow: /invoices/*
+Disallow: /estimates/*
+
+Noindex: /*?form_focus
+Noindex: /*?euid
+Noindex: /integrations/*
+
+Sitemap: https://www.vcita.com/sitemap.xml.gz
